@@ -1,0 +1,463 @@
+{
+  "fields": [
+    {
+      "aliases": [
+        "c29_m1"
+      ],
+      "default": null,
+      "doc": "M",
+      "name": "ADDITION_CODE",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c15"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "CHARGE_CCY",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c16"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "CHARGE_CODE",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c12"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "MONTHLY_BONUS",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c0"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "_ID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c29_m6"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "SEAB_BROKER_ID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c30"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "RECORD_STATUS",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c3"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "EMPLOYERS_ID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c5"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "END_DATE",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c37"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "AUDITOR_CODE",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c29_m4"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "SEAB_SALE_ID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c29_m7"
+      ],
+      "default": null,
+      "doc": "M",
+      "name": "SEAB_ROLE_TYPE",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c29_m3"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "SEAB_SALES_TYPE",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c13"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "NET_MONTHLY_IN",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c38"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "AUDIT_DATE_TIME",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c33"
+      ],
+      "default": null,
+      "doc": "M_S",
+      "name": "DATE_TIME",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c1"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "CUSTOMER_STATUS",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c19"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "CHANNEL",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c18"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "CHARGE_AMT",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c2"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "OCCUPATION",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c4"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "START_DATE",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c29_m8"
+      ],
+      "default": null,
+      "doc": "M",
+      "name": "SEAB_ROLE_ID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c34"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "AUTHORISER",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c9"
+      ],
+      "default": null,
+      "doc": "M_S",
+      "name": "BANK_ADD",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c14"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "NET_MONTHLY_OUT",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c11"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "MONTHLY_SALARY",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c35"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "CO_CODE",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c31"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "CURR_NO",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c32"
+      ],
+      "default": null,
+      "doc": "M_S",
+      "name": "INPUTTER",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c6"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "SALARY_CCY",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c7"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "SEABANK_SALARY_ACC_ID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c29_m5"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "SEAB_BROKER_TYP",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c8"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "OTHER_SALARY_ACC_ID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c10"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "OTHER_BANK_ID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c17"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "CHARGE_TYPE",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c36"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "DEPT_CODE",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c0"
+      ],
+      "default": null,
+      "doc": "S",
+      "name": "ID",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "aliases": [
+        "c29_m2"
+      ],
+      "default": null,
+      "doc": "M",
+      "name": "ADDITION_VALUE",
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  ],
+  "name": "FBNK_SEAB_SALARY_CUSTOMER",
+  "namespace": "vn.bnh.t24parser",
+  "type": "record"
+}
