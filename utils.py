@@ -1,20 +1,10 @@
 import os
 import re
-import json
 from dotenv import load_dotenv
 
 load_dotenv()
 
-STREAM_FIELDS_FILE_PATH = os.getenv("STREAM_FIELDS_FILE_PATH")
-SCHEMA_FILE_PATH = os.getenv("SCHEMA_FILE_PATH")
 PATTERN = re.compile(r".+XMLRECORD\['(.+)'\].*\s(\w+),?")
-
-
-with open(STREAM_FIELDS_FILE_PATH, "r") as file:
-    STREAM_FIELDS = [item.split("--")[0].strip() for item in file.read().split("\n")]
-
-with open(SCHEMA_FILE_PATH, "r") as file:
-    FIELD_NAMES = [field["name"] for field in json.load(file)["fields"]]
 
 
 def print_result(match):
@@ -32,5 +22,14 @@ def apply_regex(input_string):
         print("Match failed.\n")
 
 
-for stream_fields in STREAM_FIELDS:
-    apply_regex(stream_fields)
+def check_stream_field_in_schema(field_names):
+    global FIELD_NAMES
+    FIELD_NAMES = field_names
+
+    with open(os.getenv("STREAM_FIELDS_FILE_PATH"), "r") as file:
+        STREAM_FIELDS = [
+            item.split("--")[0].strip() for item in file.read().split("\n")
+        ]
+
+    for stream_fields in STREAM_FIELDS:
+        apply_regex(stream_fields)
