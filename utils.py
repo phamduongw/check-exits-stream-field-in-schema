@@ -1,17 +1,13 @@
-import os
 import re
-from dotenv import load_dotenv
-
-load_dotenv()
 
 PATTERN = re.compile(r".+XMLRECORD\['(.+)'\].*\s(\w+),?")
 
 
 def print_result(match):
     group1, group2 = match.group(1), match.group(2)
-    print(f"DATA.XMLRECORD[{group1}] {group2}")
-    print(f"XMLRECORD['{group1}'] = {group1 in FIELD_NAMES}")
-    print(f"FIELD['{group2}'] = {group2 in FIELD_NAMES}\n")
+    print("DATA.XMLRECORD[{0}] {1}".format(group1, group2))
+    print("XMLRECORD['{0}'] = {1}".format(group1, group1 in FIELD_NAMES))
+    print("FIELD['{0}'] = {1}\n".format(group2, group2 in FIELD_NAMES))
 
 
 def apply_regex(input_string):
@@ -26,7 +22,7 @@ def check_stream_field_in_schema(field_names):
     global FIELD_NAMES
     FIELD_NAMES = field_names
 
-    with open(os.getenv("STREAM_FIELDS_FILE_PATH"), "r") as file:
+    with open("stream_fields.sql", "r") as file:
         STREAM_FIELDS = [
             item.split("--")[0].strip() for item in file.read().split("\n")
         ]
